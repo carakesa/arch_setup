@@ -23,7 +23,7 @@
       "default": ""
     },
     "persistent-workspaces": {
-      "*": 5
+            "*": 9
     }
   },
 
@@ -56,12 +56,21 @@
   },
 
   // ML4W Welcome App
+  //"custom/ml4w-welcome": {
+  //  "on-click": "sleep 0.1 && ~/dotfiles/eww/ml4w-sidebar/launch.sh",
+ //   "on-click-right": "sleep 0.1 && ~/dotfiles/apps/ML4W_Welcome-x86_64.AppImage",
+ //   "format": " ",
+ //   "tooltip-format": "Open Sidebar"
+//  },
+ 
+  // ML4W Welcome App
   "custom/ml4w-welcome": {
-    "on-click": "sleep 0.1 && ~/dotfiles/eww/ml4w-sidebar/launch.sh",
-    "on-click-right": "sleep 0.1 && ~/dotfiles/apps/ML4W_Welcome-x86_64.AppImage",
+    "on-click": "ags -t sidebar",
+    "on-click-right": "sleep 0.1 && ~/.config/ml4w/apps/ML4W_Welcome-x86_64.AppImage",
     "format": " ",
     "tooltip-format": "Open Sidebar"
   },
+
 
   // ML4W Welcome App
   "custom/ml4w-hyprland-settings": {
@@ -281,7 +290,7 @@
   // Group Settings
   "group/links": {
     "orientation": "horizontal",
-    "modules": ["custom/chatgpt", "custom/empty"]
+//            "custom/chatgpt",
   },
 
   // Group Settings

@@ -13,11 +13,11 @@
     },
     {
         "key": "waybar_workspaces",
-        "value": 5
+        "value": 9
     },
     {
         "key": "rofi_bordersize",
-        "value": 1
+        "value": 2
     },
     {
         "key": "waybar_toggle",
@@ -25,7 +25,7 @@
     },
     {
         "key": "waybar_taskbar",
-        "value": false
+        "value": true
     },
     {
         "key": "waybar_network",
@@ -33,7 +33,7 @@
     },
     {
         "key": "waybar_chatgpt",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_systray",
@@ -41,7 +41,7 @@
     },
     {
         "key": "waybar_screenlock",
-        "value": true
+        "value": false
     },
     {
         "key": "waybar_window",

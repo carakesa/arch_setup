@@ -1,1 +1,1 @@
-kitty -e pacseek
+wezterm -e pacseek
